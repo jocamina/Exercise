@@ -159,6 +159,5 @@ C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\bin\Microsoft.Owin.Sec
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\obj\Debug\Exercise.csprojResolveAssemblyReference.cache
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\obj\Debug\Exercise.dll
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise\obj\Debug\Exercise.pdb
