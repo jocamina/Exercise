@@ -1,0 +1,1 @@
+﻿var bgl = angular.module('bgl', ['ngRoute']);
