@@ -22,3 +22,28 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.intro-header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main-search-input {
+   /*width: 190px !important;*/
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+.developer {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.developer img {
+    margin: 0 auto;
+    border: 2px solid grey;
+}
+
+.search-bar {
+    text-align: center;
+}
