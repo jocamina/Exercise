@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Exercise;
 using Exercise.Controllers;
+using Exercise.Controllers.Home;
 
 namespace Exercise.Tests.Controllers
 {

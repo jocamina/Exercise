@@ -2,11 +2,13 @@
 
     var GitupService = {};
 
-    GitupService.getUser = function (filter) {
-        return $http({
+    GitupService.getUser = function (inputValue) {
+		var filter = {inputValue: inputValue};
+
+		return $http({
             method: 'GET',
             url: '/Home/GetUser',
-            params: filters
+            params: filter
         });
     };
 

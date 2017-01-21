@@ -64,6 +64,7 @@ C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\RestSharp.dll
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\Exercise.pdb
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.Helpers.xml
@@ -73,6 +74,7 @@ C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\bin\Debug\RestSharp.xml
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\obj\Debug\Exercise.Tests.csprojResolveAssemblyReference.cache
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\obj\Debug\Exercise.Tests.dll
 C:\Users\pepe\Documents\GitHub\Exercise\Exercise\Exercise.Tests\obj\Debug\Exercise.Tests.pdb
