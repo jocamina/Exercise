@@ -28,7 +28,9 @@ namespace Exercise.Models.Api
 
         public IEnumerable<Repository> GetReposForUser(string userName)
          {
-            var jsonResponse = m_apiClient.Get(GetReposAction(userName));
+            var resourceFull = GetReposAction(userName);
+
+            var jsonResponse = m_apiClient.Get(resourceFull);
 
             var repos = JsonConvert.DeserializeObject<IEnumerable<Repository>>(jsonResponse);
 
