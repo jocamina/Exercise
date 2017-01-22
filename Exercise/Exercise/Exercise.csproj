@@ -205,6 +205,7 @@
     <Compile Include="Models\Api\AbstractApiClientFactory.cs" />
     <Compile Include="Models\Api\AbstractRepoApiFactory.cs" />
     <Compile Include="Models\Api\ApiClientFactory.cs" />
+    <Compile Include="Models\Api\NullBaseUrlException.cs" />
     <Compile Include="Models\Api\RepoApiFactory.cs" />
     <Compile Include="Models\Api\RestApiClient.cs" />
     <Compile Include="Models\Api\GitHubApi.cs" />

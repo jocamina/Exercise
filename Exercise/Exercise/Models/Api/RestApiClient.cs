@@ -8,8 +8,18 @@ namespace Exercise.Models.Api
 
         public RestApiClient(string baseUrl)
         {
+            CheckUrl(baseUrl);
+
             m_restClient = new RestClient(baseUrl);
-        }        
+        }
+
+        private void CheckUrl(string url)
+        {
+            if (string.IsNullOrEmpty(url))
+            {
+                throw new NullBaseUrlException("Base url cannot be null.");
+            }
+        }
 
         public string Get(string resource)
         {

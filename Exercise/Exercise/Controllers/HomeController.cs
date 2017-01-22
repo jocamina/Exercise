@@ -21,11 +21,9 @@ namespace Exercise.Controllers
             try
             {
                 var repoApiFactory = new RepoApiFactory();
-
                 var gitHubApi = repoApiFactory.CreateGitHubRepo();
 
                 var user = gitHubApi.GetUser(filter.InputValue);
-
                 var topRepos = gitHubApi.GetTopResposStargazers(filter.InputValue);
 
                 var response = new { User = user, Repos = topRepos };

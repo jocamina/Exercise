@@ -11,7 +11,7 @@ namespace Exercise.Models.Api
 
         public override IApiClient CreateOctokitWrapper(string baseUrl)
         {
-            throw new NotImplementedException("Not implemented yet, just for design demo purposes.");
+            throw new NotImplementedException("Not implemented yet, just for demo purposes.");
         }
     }
 }

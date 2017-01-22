@@ -19,7 +19,9 @@ namespace Exercise.Models.Api
 
         public User GetUser(string userName)
         {
-            var jsonResponse = m_apiClient.Get(GetUserAction(userName));
+            var resourceFull = GetUserAction(userName);
+
+            var jsonResponse = m_apiClient.Get(resourceFull);
 
             return JsonConvert.DeserializeObject<User>(jsonResponse);
         }

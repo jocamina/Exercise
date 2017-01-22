@@ -1,8 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Newtonsoft.Json;
 
 namespace Exercise.Models
 {
-    public class User
+    public class User : IEquatable<User>
     {
         [JsonProperty("login")]
         public string Login { get; set; }
@@ -17,6 +18,19 @@ namespace Exercise.Models
         public string AvatarUrl { get; set; }
 
         [JsonProperty("location")]
-        public string Location { get; set; }
+        public string Location { get; set; }       
+
+        public bool Equals(User other)
+        {
+            bool areEqual = true;
+
+            areEqual &= Id == other.Id;
+            areEqual &= Login == other.Login;
+            areEqual &= Name == other.Name;
+            areEqual &= AvatarUrl == other.AvatarUrl;
+            areEqual &= Location == other.Location;
+
+            return areEqual;
+        }
     }
 }
