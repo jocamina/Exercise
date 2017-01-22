@@ -59,3 +59,7 @@ img.avatar {
 	min-height: 320px;
     height: auto !important;
 }
+
+.not-found {
+	margin-top: 50px;
+}

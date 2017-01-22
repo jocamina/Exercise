@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Web.Mvc;
+using Exercise.Models.Api;
 
-namespace Exercise.Controllers.Home
+namespace Exercise.Controllers
 {
     public class HomeController : Controller
     {
@@ -19,7 +20,9 @@ namespace Exercise.Controllers.Home
         {
             try
             {
-                var gitHubApi = new GitHubApi();
+                var repoApiFactory = new RepoApiFactory();
+
+                var gitHubApi = repoApiFactory.CreateGitHubRepo();
 
                 var user = gitHubApi.GetUser(filter.InputValue);
 

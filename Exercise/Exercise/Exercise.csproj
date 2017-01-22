@@ -202,12 +202,18 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\Home\ApiClient.cs" />
-    <Compile Include="Controllers\Home\GitHubApi.cs" />
-    <Compile Include="Controllers\Home\HomeController.cs" />
+    <Compile Include="Models\Api\AbstractApiClientFactory.cs" />
+    <Compile Include="Models\Api\AbstractRepoApiFactory.cs" />
+    <Compile Include="Models\Api\ApiClientFactory.cs" />
+    <Compile Include="Models\Api\RepoApiFactory.cs" />
+    <Compile Include="Models\Api\RestApiClient.cs" />
+    <Compile Include="Models\Api\GitHubApi.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Api\IApiClient.cs" />
+    <Compile Include="Models\Api\IRepoApi.cs" />
     <Compile Include="Models\Filter.cs" />
     <Compile Include="Models\Repository.cs" />
     <Compile Include="Models\User.cs" />

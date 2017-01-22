@@ -1,12 +1,12 @@
 ﻿using RestSharp;
 
-namespace Exercise.Controllers.Home
+namespace Exercise.Models.Api
 {
-    public class ApiClient
+    public class RestApiClient : IApiClient
     {
         IRestClient m_restClient;
 
-        public ApiClient(string baseUrl)
+        public RestApiClient(string baseUrl)
         {
             m_restClient = new RestClient(baseUrl);
         }        

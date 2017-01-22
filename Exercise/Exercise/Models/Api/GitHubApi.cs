@@ -2,21 +2,19 @@
 using System.Linq;
 using Newtonsoft.Json;
 
-using Exercise.Models;
-
-namespace Exercise.Controllers.Home
+namespace Exercise.Models.Api
 {
-    public class GitHubApi
+    public class GitHubApi : IRepoApi
     {
         const string BASE_URL = "https://api.github.com";
         const string USERS = "users";
         const string REPOS = "repos";
 
-        ApiClient m_apiClient;
+        IApiClient m_apiClient;
 
-        public GitHubApi()
+        public GitHubApi(AbstractApiClientFactory apiClientFactory)
         {
-            m_apiClient = new ApiClient(BASE_URL);
+            m_apiClient = apiClientFactory.CreateRestApiClient(BASE_URL);
         }
 
         public User GetUser(string userName)
