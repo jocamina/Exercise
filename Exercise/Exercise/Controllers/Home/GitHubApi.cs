@@ -27,12 +27,12 @@ namespace Exercise.Controllers.Home
         }
 
         public IEnumerable<Repository> GetReposForUser(string userName)
-        {
+         {
             var jsonResponse = m_apiClient.Get(GetReposAction(userName));
 
             var repos = JsonConvert.DeserializeObject<IEnumerable<Repository>>(jsonResponse);
 
-            if (repos == null)
+            if (repos != null)
             {
                 return repos;
             }

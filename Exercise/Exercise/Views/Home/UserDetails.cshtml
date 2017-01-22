@@ -1,25 +1,21 @@
 ﻿
 <!-- Main Content -->
-
-<div ng-hide="hideUserDetails" class="ng-hide container">
+<div ng-hide="hideUserDetails" class="container">
 	<hr />
-    <div class="row">
-        <div class="col-md-4 search-bar">
-            url = {{user.AvatarUrl.replace('https://','')}}
-			<img class="" src="" alt="">
-        </div>
-        <div class="col-md-8">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">{{user.Name}}</h2>
-            <p class="text-muted">{{user.Location}}</p>
-            <p class="lead">Top 5 repositories:</p>
-            <ul class="list-group" ng-repeat="repo in repos">
-                <li class="list-group-item">
-                    <span class="badge">{{repo.StargazersCount}}</span>
-                    {{repo.FullName}}
-                </li>
-            </ul>
-        </div>
-    </div>
-
+	<div class="row">
+		<div class="col-md-4 center-text ">
+			<img class="avatar img-thumbnail" ng-src="{{user.AvatarUrl}}"/>
+		</div>
+		<div class="col-md-8">
+			<h2 class="section-heading">{{user.Name}}</h2>
+			<p class="text-muted">{{user.Location}}</p>
+			<p class="lead">Top 5 repositories:</p>
+			<ul class="list-group" ng-repeat="repo in repos">
+				<li class="list-group-item">
+					<span class="badge">{{repo.StargazersCount}}</span>
+					<a href="https://github.com/{{repo.FullName}}">{{repo.FullName}}</a>					 
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>

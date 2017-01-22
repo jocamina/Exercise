@@ -15,7 +15,7 @@ namespace Exercise.Controllers.Home
         {
             var request = new RestRequest(resource, Method.GET);
             
-            IRestResponse response = m_restClient.Execute(request);
+            var response = m_restClient.Execute(request);
 
             return response.Content;
         }

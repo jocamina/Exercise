@@ -3,6 +3,9 @@
     padding-bottom: 20px;
 }
 
+footer {
+	height:50px;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -29,7 +32,6 @@ textarea {
 }
 
 .main-search-input {
-   /*width: 190px !important;*/
    margin: auto;
    margin-bottom: 20px;
 }
@@ -44,6 +46,16 @@ textarea {
     border: 2px solid grey;
 }
 
-.search-bar {
+.center-text {
     text-align: center;
+}
+
+img.avatar {
+	max-height: 250px;
+	max-width: 250px;
+}
+ 
+.wrap {
+	min-height: 320px;
+    height: auto !important;
 }
